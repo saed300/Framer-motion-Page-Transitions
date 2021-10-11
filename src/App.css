@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+}
+
+.page-1 {
+  background-color: #DC143C;
+}
+.page-2 {
+  background-color: #5F9EA0;
+}
+.page-3 {
+  background-color: #6495ED;
+}
+.page-4 {
+  background-color: #2F4F4F;
+}
+.page-5 {
+  background-color: #FF1493;
+}
+
+
+.previous-page {
+  position: absolute;
+  bottom: 50;
+  left: 0;
+}
+
+.next-page {
+  position: absolute;
+  bottom: 50;
+  right: 0;
+}
